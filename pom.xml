@@ -47,6 +47,8 @@
     </dependencies>
 
     <build>
+        <!-- ADDED THIS LINE: Makes the deployed Tomcat folder name clean -->
+        <finalName>appointment-booking</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

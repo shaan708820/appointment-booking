@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:8081/api/appointments';
+const API_URL = 'api/appointments';
 const form = document.getElementById('appointmentForm');
 const list = document.getElementById('appointmentList');
 
