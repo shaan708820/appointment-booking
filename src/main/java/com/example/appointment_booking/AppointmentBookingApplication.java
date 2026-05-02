@@ -17,4 +17,8 @@ public class AppointmentBookingApplication extends SpringBootServletInitializer 
     public static void main(String[] args) {
         SpringApplication.run(AppointmentBookingApplication.class, args);
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 83050668b7eb034a41c1384a6e167baed43138a3
