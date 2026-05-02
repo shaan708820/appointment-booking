@@ -8,7 +8,6 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @SpringBootApplication
 public class AppointmentBookingApplication extends SpringBootServletInitializer {
 
-    // This method is required for external Tomcat deployment
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
         return application.sources(AppointmentBookingApplication.class);
