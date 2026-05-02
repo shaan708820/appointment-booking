@@ -13,7 +13,9 @@
     <groupId>com.example</groupId>
     <artifactId>appointment-booking</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    
+    <!-- CHANGED FROM jar TO war -->
+    <packaging>war</packaging>
     
     <name>appointment-booking</name>
     <description>Doctor Appointment Booking API</description>
@@ -27,6 +29,13 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!-- ADDED THIS BLOCK: Required to deploy to an external Tomcat server -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
         </dependency>
 
         <!-- Standard Spring Boot testing dependency -->
